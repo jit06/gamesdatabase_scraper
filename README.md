@@ -8,10 +8,14 @@ It uses already scraped roms to read game's names and scrap video using scraper.
 It is possible to resize and change frame rate of scraped video (need ffmpeg to be installed).
 
 Usage example:
- - to scrap videos and convert them in 30 Fps, 320px width
-      php parser.php gamelists downloaded_images 30 320
+ - to scrap videos and convert them in 30 Fps, 320px width:
+    ```bash
+    php parser.php gamelists downloaded_images 30 320
+    ```
  - to scrap video with no convertion:
+      ```bash 
       php parser.php gamelists downloaded_images
+      ```
 
   where :
     - "gamelists" is the emulationstation's directory where all gamelist XML files are stored (in system subfolders)
